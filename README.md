@@ -8,7 +8,12 @@ It also demonstrate how to do basic Erlang FFI with Gleam.
 
 ## Benchmarks
 
+### Gleam
+
 ![Gleam benchmark](https://github.com/Zenor27/gleamsock/blob/main/benchmark_gleam.png?raw=true)
+
+
+### Go
 
 ![Go benchmark](https://github.com/Zenor27/gleamsock/blob/main/benchmark_golang.png?raw=true)
 
@@ -28,6 +33,6 @@ $ gleam run
 ```
 $ python -m venv .venv
 $ source .venv/bin/activate
-$ pip install
+$ pip install -r requirements.txt
 $ python src/benchmark.py
 ```
